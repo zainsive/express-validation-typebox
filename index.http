@@ -1,0 +1,11 @@
+### post route
+@host=localhost
+@port=5000
+POST http://{{host}}:{{port}}/postRoute
+Content-Type: application/json
+
+{
+   "firstName": "fname",
+    "lastName": "lname",
+    "age": 50
+}
